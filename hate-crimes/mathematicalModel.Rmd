@@ -1,0 +1,20 @@
+---
+output: pdf_document
+---
+
+
+$$
+\beta_0 \sim \text{Normal}(0, \sigma = 10000)
+$$
+$$
+\beta_1...\beta_6 \sim \text{Normal}(0, \sigma=10000)
+$$
+$$
+\sigma_{\text{obs}} \sim \text{Uniform}(0, 10000)
+$$
+$$
+\log(\mu_i) = \beta_0 + \sum_{j=1}^6 \beta_j X_{i,j} \text{ for } i=1...51
+$$
+$$
+y_i \sim \text{Normal} (\mu_i, \sigma = \sigma_{\text{obs}})
+$$
